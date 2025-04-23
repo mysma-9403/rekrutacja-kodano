@@ -126,7 +126,6 @@ class Category
     {
         if (!$this->products->contains($p)) {
             $this->products->add($p);
-            // Nie musisz tu dodawać $p->addCategory($this) – to już robisz w Product::addCategory()
         }
         return $this;
     }
