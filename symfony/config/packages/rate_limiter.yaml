@@ -1,0 +1,9 @@
+framework:
+  rate_limiter:
+    api_requests:
+      policy: token_bucket
+      limit: 100
+      rate:
+        interval: '1 minute'
+        amount: 100
+      cache_pool: cache.rate_limiter

@@ -1,0 +1,24 @@
+# config/packages/api_platform.yaml
+api_platform:
+    error_formats:
+        jsonproblem: [ "application/problem+json" ]
+        jsonld: [ "application/ld+json" ] # Hydra error formats
+        jsonapi: [ "application/vnd.api+json" ]
+
+    mapping:
+        paths:
+            - '%kernel.project_dir%/src/Domain/Product'
+            - '%kernel.project_dir%/src/Domain/Category'
+    # Domyślne ustawienia dla wszystkich zasobów:
+    defaults:
+        pagination_items_per_page:           10    # ile elementów na stronę domyślnie :contentReference[oaicite:0]{index=0}
+        pagination_maximum_items_per_page:   50    # maks. ile elementów klient może zażądać :contentReference[oaicite:1]{index=1}
+        pagination_client_items_per_page:    true  # pozwól klientowi nadpisać liczbę elementów na stronę :contentReference[oaicite:2]{index=2}
+
+    collection:
+        pagination:
+            enabled:                         true   # włącz paginację
+            enabled_parameter_name:         pagination
+            items_per_page_parameter_name:  itemsPerPage   # parametr do zmiany liczby na stronę :contentReference[oaicite:3]{index=3}
+            page_parameter_name:            page
+            partial_parameter_name:         partial

@@ -1,0 +1,66 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    container_name: symfony_app
+    command: >
+      sh -c "composer install --no-interaction && exec /usr/bin/supervisord -c /etc/supervisord.conf"
+    volumes:
+      - ./symfony:/var/www/html
+    environment:
+      APP_ENV: ${APP_ENV}
+    depends_on:
+      - db
+      - redis
+      - rabbitmq
+      - mailhog
+
+  nginx:
+    image: nginx:alpine
+    container_name: symfony_nginx
+    ports:
+      - "${APP_PORT}:80"
+    volumes:
+      - ./symfony:/var/www/html
+      - ./.docker/nginx/server.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
+
+  db:
+    image: mysql:8.3
+    container_name: symfony_db
+    ports:
+      - "${MYSQL_PORT}:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+
+  redis:
+    image: redis:7-alpine
+    container_name: symfony_redis
+    ports:
+      - "${REDIS_PORT}:6379"
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: symfony_rabbitmq
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+
+  mailhog:
+    image: mailhog/mailhog
+    container_name: symfony_mailhog
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+
+volumes:
+  db_data:

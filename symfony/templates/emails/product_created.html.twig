@@ -1,0 +1,17 @@
+{# templates/emails/product_created.html.twig #}
+<h1>Nowy produkt dodany</h1>
+
+<ul>
+    <li><strong>ID:</strong> {{ product.id }}</li>
+    <li><strong>Nazwa:</strong> {{ product.name }}</li>
+    <li><strong>Cena:</strong> {{ product.price }} PLN</li>
+    <li><strong>Daty:</strong> dodany {{ product.createdAt|date('Y-m-d H:i') }}, ostatnia aktualizacja {{ product.updatedAt|date('Y-m-d H:i') }}</li>
+    <li>
+        <strong>Kategorie:</strong>
+        <ul>
+            {% for cat in product.categories %}
+                <li>{{ cat.code }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+</ul>

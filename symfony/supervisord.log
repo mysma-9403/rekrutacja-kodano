@@ -1,0 +1,1012 @@
+2025-04-22 02:09:01,048 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 02:09:01,053 INFO supervisord started with pid 1
+2025-04-22 02:09:02,056 INFO spawned: 'php-fpm' with pid 29
+2025-04-22 02:09:02,061 INFO spawned: 'worker' with pid 30
+2025-04-22 02:09:02,472 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:03,474 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 02:09:03,476 INFO spawned: 'worker' with pid 35
+2025-04-22 02:09:04,796 INFO success: worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 02:09:04,796 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:05,800 INFO spawned: 'worker' with pid 38
+2025-04-22 02:09:06,072 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:07,083 INFO spawned: 'worker' with pid 41
+2025-04-22 02:09:08,091 INFO success: worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 02:09:08,562 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:09,566 INFO spawned: 'worker' with pid 44
+2025-04-22 02:09:10,141 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:11,145 INFO spawned: 'worker' with pid 47
+2025-04-22 02:09:11,476 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:13,488 INFO spawned: 'worker' with pid 50
+2025-04-22 02:09:14,698 INFO success: worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 02:09:14,698 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:15,701 INFO spawned: 'worker' with pid 53
+2025-04-22 02:09:15,909 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:16,912 INFO spawned: 'worker' with pid 56
+2025-04-22 02:09:17,219 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:19,223 INFO spawned: 'worker' with pid 59
+2025-04-22 02:09:19,508 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:22,699 INFO spawned: 'worker' with pid 62
+2025-04-22 02:09:22,863 WARN exited: worker (exit status 1; not expected)
+2025-04-22 02:09:23,866 INFO gave up: worker entered FATAL state, too many start retries too quickly
+2025-04-22 02:40:17,333 WARN received SIGQUIT indicating exit request
+2025-04-22 02:40:17,333 INFO waiting for php-fpm to die
+2025-04-22 02:40:18,340 INFO stopped: php-fpm (exit status 0)
+2025-04-22 03:04:18,595 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 03:04:18,595 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 03:04:18,598 INFO supervisord started with pid 1
+2025-04-22 03:04:19,600 INFO spawned: 'messenger' with pid 30
+2025-04-22 03:04:20,302 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:21,306 INFO spawned: 'messenger' with pid 33
+2025-04-22 03:04:21,746 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:23,752 INFO spawned: 'messenger' with pid 36
+2025-04-22 03:04:24,151 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:27,161 INFO spawned: 'messenger' with pid 39
+2025-04-22 03:04:28,164 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 03:04:28,318 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:29,323 INFO spawned: 'messenger' with pid 42
+2025-04-22 03:04:29,900 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:30,908 INFO spawned: 'messenger' with pid 51
+2025-04-22 03:04:31,915 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 03:04:32,373 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:33,376 INFO spawned: 'messenger' with pid 54
+2025-04-22 03:04:33,807 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:34,809 INFO spawned: 'messenger' with pid 57
+2025-04-22 03:04:35,268 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:37,273 INFO spawned: 'messenger' with pid 60
+2025-04-22 03:04:37,680 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:40,686 INFO spawned: 'messenger' with pid 63
+2025-04-22 03:04:41,206 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 03:04:42,208 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-22 13:57:31,676 WARN received SIGQUIT indicating exit request
+2025-04-22 13:57:43,455 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 13:57:43,455 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 13:57:43,461 INFO supervisord started with pid 1
+2025-04-22 13:57:44,464 INFO spawned: 'messenger' with pid 30
+2025-04-22 13:57:45,468 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 13:57:45,626 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 13:57:46,631 INFO spawned: 'messenger' with pid 33
+2025-04-22 13:57:47,633 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 13:57:49,108 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 13:57:50,111 INFO spawned: 'messenger' with pid 36
+2025-04-22 13:57:50,883 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 13:57:51,886 INFO spawned: 'messenger' with pid 39
+2025-04-22 13:57:52,272 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 13:57:54,277 INFO spawned: 'messenger' with pid 42
+2025-04-22 13:57:54,665 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 13:57:57,673 INFO spawned: 'messenger' with pid 45
+2025-04-22 13:57:58,042 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 13:57:59,045 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-22 14:03:46,808 WARN received SIGQUIT indicating exit request
+2025-04-22 14:04:05,416 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 14:04:05,416 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 14:04:05,421 INFO supervisord started with pid 1
+2025-04-22 14:04:06,425 INFO spawned: 'messenger' with pid 30
+2025-04-22 14:04:06,426 INFO spawned: 'php-fpm' with pid 31
+2025-04-22 14:04:07,112 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:04:08,116 INFO spawned: 'messenger' with pid 36
+2025-04-22 14:04:08,116 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:04:08,456 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:04:10,460 INFO spawned: 'messenger' with pid 39
+2025-04-22 14:04:10,909 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:04:14,187 INFO spawned: 'messenger' with pid 42
+2025-04-22 14:04:14,541 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:04:15,544 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-22 14:25:45,882 WARN received SIGQUIT indicating exit request
+2025-04-22 14:25:45,883 INFO waiting for php-fpm to die
+2025-04-22 14:25:45,892 INFO stopped: php-fpm (exit status 0)
+2025-04-22 14:32:39,620 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 14:32:39,621 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 14:32:39,625 INFO supervisord started with pid 1
+2025-04-22 14:32:40,628 INFO spawned: 'messenger' with pid 31
+2025-04-22 14:32:40,631 INFO spawned: 'php-fpm' with pid 32
+2025-04-22 14:32:41,112 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:32:42,115 INFO spawned: 'messenger' with pid 37
+2025-04-22 14:32:42,117 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:32:42,439 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:32:44,445 INFO spawned: 'messenger' with pid 40
+2025-04-22 14:32:44,802 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:32:47,819 INFO spawned: 'messenger' with pid 43
+2025-04-22 14:32:48,265 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:32:49,267 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-22 14:35:53,624 WARN received SIGQUIT indicating exit request
+2025-04-22 14:35:53,624 INFO waiting for php-fpm to die
+2025-04-22 14:35:53,629 INFO stopped: php-fpm (exit status 0)
+2025-04-22 14:36:05,989 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 14:36:05,990 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 14:36:05,994 INFO supervisord started with pid 1
+2025-04-22 14:36:06,997 INFO spawned: 'messenger' with pid 35
+2025-04-22 14:36:06,999 INFO spawned: 'php-fpm' with pid 36
+2025-04-22 14:36:07,546 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:36:08,549 INFO spawned: 'messenger' with pid 41
+2025-04-22 14:36:08,550 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:36:09,061 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:36:11,066 INFO spawned: 'messenger' with pid 44
+2025-04-22 14:36:11,536 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:36:14,578 INFO spawned: 'messenger' with pid 47
+2025-04-22 14:36:15,210 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:36:16,209 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-22 14:52:18,931 WARN received SIGQUIT indicating exit request
+2025-04-22 14:52:18,932 INFO waiting for php-fpm to die
+2025-04-22 14:52:18,942 INFO stopped: php-fpm (exit status 0)
+2025-04-22 14:56:32,738 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 14:56:32,739 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 14:56:32,753 INFO supervisord started with pid 1
+2025-04-22 14:56:33,758 INFO spawned: 'messenger' with pid 30
+2025-04-22 14:56:33,760 INFO spawned: 'php-fpm' with pid 31
+2025-04-22 14:56:34,975 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:56:34,980 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:56:37,009 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:56:38,014 INFO spawned: 'messenger' with pid 36
+2025-04-22 14:56:39,027 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:56:40,239 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:56:41,243 INFO spawned: 'messenger' with pid 39
+2025-04-22 14:56:42,247 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:56:43,025 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:56:44,070 INFO spawned: 'messenger' with pid 42
+2025-04-22 14:56:45,073 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:56:45,248 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:56:46,252 INFO spawned: 'messenger' with pid 45
+2025-04-22 14:56:47,210 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:56:48,215 INFO spawned: 'messenger' with pid 48
+2025-04-22 14:56:49,219 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:56:49,489 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:56:50,494 INFO spawned: 'messenger' with pid 51
+2025-04-22 14:56:51,508 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:56:52,615 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:56:53,619 INFO spawned: 'messenger' with pid 54
+2025-04-22 14:56:54,621 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:56:55,706 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:56:56,710 INFO spawned: 'messenger' with pid 57
+2025-04-22 14:56:57,715 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:56:57,741 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:56:58,753 INFO spawned: 'messenger' with pid 60
+2025-04-22 14:56:59,768 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 14:57:00,052 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:57:01,055 INFO spawned: 'messenger' with pid 63
+2025-04-22 14:57:01,680 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:57:02,684 INFO spawned: 'messenger' with pid 66
+2025-04-22 14:57:03,205 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:57:05,211 INFO spawned: 'messenger' with pid 69
+2025-04-22 14:57:05,628 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:57:08,635 INFO spawned: 'messenger' with pid 72
+2025-04-22 14:57:09,013 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 14:57:10,014 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-22 15:16:23,228 WARN received SIGQUIT indicating exit request
+2025-04-22 15:16:23,229 INFO waiting for php-fpm to die
+2025-04-22 15:16:23,233 INFO stopped: php-fpm (exit status 0)
+2025-04-22 15:16:36,780 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 15:16:36,780 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 15:16:36,785 INFO supervisord started with pid 1
+2025-04-22 15:16:37,789 INFO spawned: 'messenger' with pid 36
+2025-04-22 15:16:37,793 INFO spawned: 'php-fpm' with pid 37
+2025-04-22 15:16:38,530 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 15:16:39,533 INFO spawned: 'messenger' with pid 42
+2025-04-22 15:16:39,534 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 15:16:40,025 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 15:16:42,030 INFO spawned: 'messenger' with pid 45
+2025-04-22 15:16:42,359 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 15:16:45,366 INFO spawned: 'messenger' with pid 48
+2025-04-22 15:16:46,369 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 15:16:46,739 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 15:16:47,745 INFO spawned: 'messenger' with pid 51
+2025-04-22 15:16:48,144 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 15:16:49,147 INFO spawned: 'messenger' with pid 54
+2025-04-22 15:16:49,532 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 15:16:51,540 INFO spawned: 'messenger' with pid 57
+2025-04-22 15:16:51,925 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 15:16:54,933 INFO spawned: 'messenger' with pid 60
+2025-04-22 15:16:55,408 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 15:16:56,410 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-22 19:55:22,937 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 19:55:22,938 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 19:55:22,944 INFO supervisord started with pid 1
+2025-04-22 19:55:23,947 INFO spawned: 'messenger' with pid 30
+2025-04-22 19:55:23,949 INFO spawned: 'php-fpm' with pid 31
+2025-04-22 19:55:24,674 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 19:55:25,677 INFO spawned: 'messenger' with pid 36
+2025-04-22 19:55:25,841 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 19:55:26,255 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 19:55:28,260 INFO spawned: 'messenger' with pid 39
+2025-04-22 19:55:28,658 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 19:55:31,665 INFO spawned: 'messenger' with pid 42
+2025-04-22 19:55:32,046 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 19:55:33,047 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-22 20:15:09,895 WARN received SIGQUIT indicating exit request
+2025-04-22 20:15:09,896 INFO waiting for php-fpm to die
+2025-04-22 20:15:09,909 INFO stopped: php-fpm (exit status 0)
+2025-04-22 20:15:19,254 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 20:15:19,255 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 20:15:19,259 INFO supervisord started with pid 1
+2025-04-22 20:15:20,263 INFO spawned: 'messenger' with pid 36
+2025-04-22 20:15:20,265 INFO spawned: 'php-fpm' with pid 37
+2025-04-22 20:15:20,820 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 20:15:21,824 INFO spawned: 'messenger' with pid 42
+2025-04-22 20:15:21,826 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 20:15:22,237 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 20:15:24,243 INFO spawned: 'messenger' with pid 45
+2025-04-22 20:15:24,632 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 20:15:28,613 INFO spawned: 'messenger' with pid 48
+2025-04-22 20:15:28,934 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 20:15:29,937 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-22 20:37:15,980 WARN received SIGQUIT indicating exit request
+2025-04-22 20:37:15,981 INFO waiting for php-fpm to die
+2025-04-22 20:37:15,993 INFO stopped: php-fpm (exit status 0)
+2025-04-22 20:37:25,843 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-22 20:37:25,843 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-22 20:37:25,847 INFO supervisord started with pid 1
+2025-04-22 20:37:26,850 INFO spawned: 'messenger' with pid 36
+2025-04-22 20:37:26,852 INFO spawned: 'php-fpm' with pid 37
+2025-04-22 20:37:27,338 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 20:37:28,341 INFO spawned: 'messenger' with pid 42
+2025-04-22 20:37:28,342 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-22 20:37:28,732 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 20:37:31,336 INFO spawned: 'messenger' with pid 45
+2025-04-22 20:37:31,691 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 20:37:34,699 INFO spawned: 'messenger' with pid 48
+2025-04-22 20:37:35,037 WARN exited: messenger (exit status 1; not expected)
+2025-04-22 20:37:36,040 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-23 14:20:51,211 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 14:20:51,211 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 14:20:51,214 INFO supervisord started with pid 1
+2025-04-23 14:20:52,218 INFO spawned: 'messenger' with pid 29
+2025-04-23 14:20:52,220 INFO spawned: 'php-fpm' with pid 30
+2025-04-23 14:20:52,841 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:20:53,844 INFO spawned: 'messenger' with pid 35
+2025-04-23 14:20:53,845 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 14:20:54,245 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:20:56,250 INFO spawned: 'messenger' with pid 38
+2025-04-23 14:20:56,670 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:21:00,283 INFO spawned: 'messenger' with pid 41
+2025-04-23 14:21:00,729 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:21:01,731 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-23 14:25:23,367 WARN received SIGQUIT indicating exit request
+2025-04-23 14:25:23,368 INFO waiting for php-fpm to die
+2025-04-23 14:25:23,374 INFO stopped: php-fpm (exit status 0)
+2025-04-23 14:27:24,565 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 14:27:24,566 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 14:27:24,569 INFO supervisord started with pid 1
+2025-04-23 14:27:25,572 INFO spawned: 'messenger' with pid 30
+2025-04-23 14:27:25,574 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 14:27:27,159 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 14:27:27,159 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 14:29:20,890 WARN received SIGQUIT indicating exit request
+2025-04-23 14:29:20,891 INFO waiting for messenger, php-fpm to die
+2025-04-23 14:29:20,898 INFO stopped: php-fpm (exit status 0)
+2025-04-23 14:29:20,900 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 14:29:34,661 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 14:29:34,662 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 14:29:34,665 INFO supervisord started with pid 1
+2025-04-23 14:29:35,671 INFO spawned: 'messenger' with pid 30
+2025-04-23 14:29:35,671 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:29:35,689 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:29:36,692 INFO spawned: 'messenger' with pid 31
+2025-04-23 14:29:36,692 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:29:36,710 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:29:38,715 INFO spawned: 'messenger' with pid 32
+2025-04-23 14:29:38,716 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:29:38,733 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:29:41,738 INFO spawned: 'messenger' with pid 33
+2025-04-23 14:29:41,739 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:29:41,739 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2025-04-23 14:29:41,756 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:29:42,758 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-23 14:34:14,331 WARN received SIGQUIT indicating exit request
+2025-04-23 14:34:26,037 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 14:34:26,037 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 14:34:26,040 INFO supervisord started with pid 1
+2025-04-23 14:34:27,046 INFO spawned: 'messenger' with pid 30
+2025-04-23 14:34:27,047 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:34:27,068 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:34:28,073 INFO spawned: 'messenger' with pid 31
+2025-04-23 14:34:28,074 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:34:28,120 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:34:30,125 INFO spawned: 'messenger' with pid 32
+2025-04-23 14:34:30,127 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:34:30,158 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:34:33,163 INFO spawned: 'messenger' with pid 33
+2025-04-23 14:34:33,164 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:34:33,164 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2025-04-23 14:34:33,183 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:34:34,185 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-23 14:36:08,369 WARN received SIGQUIT indicating exit request
+2025-04-23 14:36:22,434 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 14:36:22,434 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 14:36:22,437 INFO supervisord started with pid 1
+2025-04-23 14:36:23,443 INFO spawned: 'messenger' with pid 30
+2025-04-23 14:36:23,443 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:36:23,468 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:36:24,471 INFO spawned: 'messenger' with pid 31
+2025-04-23 14:36:24,471 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:36:24,490 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:36:26,495 INFO spawned: 'messenger' with pid 32
+2025-04-23 14:36:26,496 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:36:26,515 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:36:29,523 INFO spawned: 'messenger' with pid 33
+2025-04-23 14:36:29,523 INFO spawnerr: can't find command '/usr/sbin/php-fpm7.4'
+2025-04-23 14:36:29,524 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2025-04-23 14:36:29,546 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 14:36:30,547 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-23 14:38:03,756 WARN received SIGQUIT indicating exit request
+2025-04-23 14:38:18,849 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 14:38:18,849 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 14:38:18,853 INFO supervisord started with pid 1
+2025-04-23 14:38:19,858 INFO spawned: 'messenger' with pid 30
+2025-04-23 14:38:19,859 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 14:38:21,411 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 14:38:21,412 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:04:47,728 WARN received SIGQUIT indicating exit request
+2025-04-23 15:04:47,729 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:04:47,737 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:04:47,739 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:10:16,605 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:10:16,605 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:10:16,611 INFO supervisord started with pid 1
+2025-04-23 15:10:17,614 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:10:17,617 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:10:19,146 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:10:19,146 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:12:34,506 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:12:35,509 INFO spawned: 'messenger' with pid 36
+2025-04-23 15:12:36,871 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:35:26,871 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:35:27,875 INFO spawned: 'messenger' with pid 47
+2025-04-23 15:35:28,697 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:35:29,701 INFO spawned: 'messenger' with pid 50
+2025-04-23 15:35:30,140 WARN received SIGQUIT indicating exit request
+2025-04-23 15:35:30,142 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:35:30,158 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:35:31,161 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:35:44,029 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:35:44,029 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:35:44,033 INFO supervisord started with pid 1
+2025-04-23 15:35:45,034 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:35:45,037 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:35:46,777 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:35:46,778 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:35:46,778 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:35:47,783 INFO spawned: 'messenger' with pid 36
+2025-04-23 15:35:49,031 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:37:00,652 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:37:01,654 INFO spawned: 'messenger' with pid 39
+2025-04-23 15:37:01,655 WARN received SIGQUIT indicating exit request
+2025-04-23 15:37:01,655 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:37:01,671 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:37:01,673 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:37:18,559 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:37:18,560 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:37:18,568 INFO supervisord started with pid 1
+2025-04-23 15:37:19,572 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:37:19,575 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:37:20,505 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:37:21,491 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:37:22,494 INFO spawned: 'messenger' with pid 36
+2025-04-23 15:37:22,991 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:37:24,996 INFO spawned: 'messenger' with pid 39
+2025-04-23 15:37:26,330 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:38:33,735 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:38:34,739 INFO spawned: 'messenger' with pid 42
+2025-04-23 15:38:35,742 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:38:35,929 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:38:36,932 INFO spawned: 'messenger' with pid 45
+2025-04-23 15:38:36,933 WARN received SIGQUIT indicating exit request
+2025-04-23 15:38:36,934 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:38:36,944 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:38:36,946 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:38:50,624 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:38:50,625 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:38:50,630 INFO supervisord started with pid 1
+2025-04-23 15:38:51,635 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:38:51,646 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:38:52,657 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:38:52,657 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:38:52,716 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:38:53,376 INFO spawned: 'messenger' with pid 36
+2025-04-23 15:38:54,882 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:38:54,882 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:38:55,688 INFO spawned: 'messenger' with pid 39
+2025-04-23 15:38:57,527 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:40:54,792 WARN received SIGQUIT indicating exit request
+2025-04-23 15:40:54,792 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:40:54,801 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:40:54,803 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:41:04,590 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:41:04,590 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:41:04,596 INFO supervisord started with pid 1
+2025-04-23 15:41:05,600 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:41:05,602 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:41:07,277 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:41:07,277 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:42:54,739 WARN received SIGQUIT indicating exit request
+2025-04-23 15:42:54,739 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:42:54,748 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:42:54,750 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:43:07,787 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:43:07,790 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:43:07,797 INFO supervisord started with pid 1
+2025-04-23 15:43:08,800 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:43:08,802 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:43:10,413 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:43:10,414 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:44:57,064 WARN received SIGQUIT indicating exit request
+2025-04-23 15:44:57,064 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:44:57,073 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:44:58,077 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:45:11,231 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:45:11,232 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:45:11,244 INFO supervisord started with pid 1
+2025-04-23 15:45:12,246 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:45:12,248 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:45:13,003 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:45:14,006 INFO spawned: 'messenger' with pid 36
+2025-04-23 15:45:14,008 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:45:14,723 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:45:16,999 INFO spawned: 'messenger' with pid 39
+2025-04-23 15:45:17,600 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:45:21,346 INFO spawned: 'messenger' with pid 42
+2025-04-23 15:45:22,825 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:45:24,012 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 15:45:25,015 INFO spawned: 'messenger' with pid 45
+2025-04-23 15:45:26,562 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:47:44,106 WARN received SIGQUIT indicating exit request
+2025-04-23 15:47:44,107 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:47:44,115 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:47:44,117 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:47:57,882 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:47:57,883 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:47:57,888 INFO supervisord started with pid 1
+2025-04-23 15:47:58,893 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:47:58,896 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:48:00,454 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:48:00,454 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:51:17,352 WARN received SIGQUIT indicating exit request
+2025-04-23 15:51:17,353 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:51:17,360 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:51:17,363 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:51:26,827 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:51:26,828 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:51:26,832 INFO supervisord started with pid 1
+2025-04-23 15:51:27,835 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:51:27,837 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:51:29,365 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:51:29,365 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:53:31,834 WARN received SIGQUIT indicating exit request
+2025-04-23 15:53:31,835 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:53:31,848 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:53:31,851 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:53:42,251 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:53:42,251 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:53:42,254 INFO supervisord started with pid 1
+2025-04-23 15:53:43,258 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:53:43,262 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:53:45,050 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:53:45,050 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:56:02,621 WARN received SIGQUIT indicating exit request
+2025-04-23 15:56:02,621 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:56:02,629 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:56:03,634 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:56:15,769 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:56:15,769 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:56:15,773 INFO supervisord started with pid 1
+2025-04-23 15:56:16,757 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:56:16,759 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:56:18,306 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:56:18,306 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:57:12,872 WARN received SIGQUIT indicating exit request
+2025-04-23 15:57:12,872 INFO waiting for messenger, php-fpm to die
+2025-04-23 15:57:12,881 INFO stopped: php-fpm (exit status 0)
+2025-04-23 15:57:13,885 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 15:57:23,185 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 15:57:23,186 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 15:57:23,190 INFO supervisord started with pid 1
+2025-04-23 15:57:24,191 INFO spawned: 'messenger' with pid 30
+2025-04-23 15:57:24,194 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 15:57:25,923 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 15:57:25,924 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 16:57:25,990 INFO exited: messenger (exit status 0; expected)
+2025-04-23 16:57:26,994 INFO spawned: 'messenger' with pid 36
+2025-04-23 16:57:28,605 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 17:57:29,347 INFO exited: messenger (exit status 0; expected)
+2025-04-23 17:57:30,350 INFO spawned: 'messenger' with pid 39
+2025-04-23 17:57:31,945 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:23:04,959 WARN received SIGQUIT indicating exit request
+2025-04-23 18:23:04,960 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:23:04,971 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:23:04,974 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:23:17,227 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:23:17,227 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:23:17,230 INFO supervisord started with pid 1
+2025-04-23 18:23:18,232 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:23:18,233 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:23:19,754 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:23:19,754 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:23:19,754 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:23:20,758 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:23:21,656 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:23:22,659 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:23:24,269 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:23:24,269 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:23:25,273 INFO spawned: 'messenger' with pid 42
+2025-04-23 18:23:25,898 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:23:26,901 INFO spawned: 'messenger' with pid 45
+2025-04-23 18:23:28,410 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:32:00,595 WARN received SIGQUIT indicating exit request
+2025-04-23 18:32:00,596 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:32:00,606 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:32:00,607 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:32:13,485 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:32:13,485 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:32:13,490 INFO supervisord started with pid 1
+2025-04-23 18:32:14,492 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:32:14,495 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:32:15,255 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:32:16,260 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:32:16,261 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:32:16,923 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:32:19,154 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:32:19,631 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:32:23,461 INFO spawned: 'messenger' with pid 42
+2025-04-23 18:32:24,553 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:32:25,016 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:32:25,715 INFO spawned: 'messenger' with pid 45
+2025-04-23 18:32:27,035 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:34:33,055 WARN received SIGQUIT indicating exit request
+2025-04-23 18:34:33,056 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:34:33,064 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:34:34,078 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:34:46,621 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:34:46,622 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:34:46,626 INFO supervisord started with pid 1
+2025-04-23 18:34:47,629 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:34:47,630 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:34:49,215 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:34:49,215 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:34:49,216 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:34:50,219 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:34:50,773 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:34:51,777 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:34:52,237 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:34:54,245 INFO spawned: 'messenger' with pid 42
+2025-04-23 18:34:56,019 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:34:56,019 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:34:57,027 INFO spawned: 'messenger' with pid 45
+2025-04-23 18:34:58,558 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:37:57,194 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:37:58,197 INFO spawned: 'messenger' with pid 48
+2025-04-23 18:37:59,201 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:38:00,204 WARN received SIGQUIT indicating exit request
+2025-04-23 18:38:00,205 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:38:00,216 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:38:01,218 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:38:12,554 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:38:12,554 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:38:12,558 INFO supervisord started with pid 1
+2025-04-23 18:38:13,561 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:38:13,564 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:38:14,716 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:38:14,718 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:38:15,938 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:38:16,941 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:38:18,616 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:38:18,616 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:38:19,620 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:38:20,959 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:38:50,406 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:38:51,422 INFO spawned: 'messenger' with pid 42
+2025-04-23 18:38:51,423 WARN received SIGQUIT indicating exit request
+2025-04-23 18:38:51,424 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:38:51,437 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:38:51,440 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:39:04,827 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:39:04,827 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:39:04,832 INFO supervisord started with pid 1
+2025-04-23 18:39:05,834 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:39:05,836 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:39:07,598 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:39:07,598 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:39:07,598 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:39:08,673 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:39:09,357 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:39:11,304 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:39:12,670 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:41:34,156 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:41:35,159 INFO spawned: 'messenger' with pid 42
+2025-04-23 18:41:36,162 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:41:36,706 WARN received SIGQUIT indicating exit request
+2025-04-23 18:41:36,706 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:41:36,718 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:41:37,724 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:42:57,592 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:42:57,593 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:42:57,597 INFO supervisord started with pid 1
+2025-04-23 18:42:58,600 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:42:58,601 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:42:59,142 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:43:00,145 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:43:00,147 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:43:00,494 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:43:02,500 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:43:02,844 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:43:05,849 INFO spawned: 'messenger' with pid 42
+2025-04-23 18:43:06,638 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:43:07,012 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-23 18:44:23,202 WARN received SIGQUIT indicating exit request
+2025-04-23 18:44:23,202 INFO waiting for php-fpm to die
+2025-04-23 18:44:23,209 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:45:39,057 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:45:39,057 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:45:39,061 INFO supervisord started with pid 1
+2025-04-23 18:45:40,064 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:45:40,065 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:45:41,624 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:45:41,624 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:46:36,919 WARN received SIGQUIT indicating exit request
+2025-04-23 18:46:36,919 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:46:36,928 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:46:36,929 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:46:46,271 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:46:46,272 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:46:46,275 INFO supervisord started with pid 1
+2025-04-23 18:46:47,278 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:46:47,279 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:46:49,124 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:46:49,124 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:50:09,658 WARN received SIGQUIT indicating exit request
+2025-04-23 18:50:09,659 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:50:09,667 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:50:09,669 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:50:17,895 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:50:17,895 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:50:17,899 INFO supervisord started with pid 1
+2025-04-23 18:50:18,902 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:50:18,905 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:50:20,476 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:50:20,477 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:50:53,794 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:50:54,798 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:50:55,800 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:50:57,117 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:50:58,120 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:50:58,607 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:50:59,611 INFO spawned: 'messenger' with pid 42
+2025-04-23 18:51:00,124 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:51:02,508 INFO spawned: 'messenger' with pid 45
+2025-04-23 18:51:03,158 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:51:06,236 INFO spawned: 'messenger' with pid 48
+2025-04-23 18:51:06,778 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:51:07,105 INFO gave up: messenger entered FATAL state, too many start retries too quickly
+2025-04-23 18:54:03,004 WARN received SIGQUIT indicating exit request
+2025-04-23 18:54:03,004 INFO waiting for php-fpm to die
+2025-04-23 18:54:03,014 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:54:15,687 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:54:15,688 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:54:15,694 INFO supervisord started with pid 1
+2025-04-23 18:54:16,696 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:54:16,699 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:54:17,571 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:54:18,575 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:54:18,576 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:54:19,214 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:54:21,452 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:54:22,464 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:55:15,886 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:55:16,898 INFO spawned: 'messenger' with pid 42
+2025-04-23 18:55:17,829 WARN received SIGQUIT indicating exit request
+2025-04-23 18:55:17,830 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:55:17,840 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:55:17,844 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:55:31,507 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:55:31,507 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:55:31,512 INFO supervisord started with pid 1
+2025-04-23 18:55:32,515 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:55:32,519 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:55:33,374 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:55:34,378 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:55:34,379 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:55:35,239 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:55:37,243 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:55:38,668 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:57:18,284 WARN received SIGQUIT indicating exit request
+2025-04-23 18:57:18,284 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:57:18,291 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:57:18,295 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:57:29,379 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:57:29,383 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:57:29,391 INFO supervisord started with pid 1
+2025-04-23 18:57:30,394 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:57:30,396 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:57:32,311 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:57:32,312 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:57:32,312 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:57:33,315 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:57:33,889 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:57:34,892 INFO spawned: 'messenger' with pid 39
+2025-04-23 18:57:36,677 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:57:36,677 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:57:37,682 INFO spawned: 'messenger' with pid 42
+2025-04-23 18:57:38,683 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:57:38,719 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:57:39,726 INFO spawned: 'messenger' with pid 45
+2025-04-23 18:57:40,738 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:57:41,484 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:57:42,137 INFO spawned: 'messenger' with pid 48
+2025-04-23 18:57:44,059 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:59:10,220 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:59:11,224 INFO spawned: 'messenger' with pid 51
+2025-04-23 18:59:12,226 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:59:12,398 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:59:13,404 INFO spawned: 'messenger' with pid 54
+2025-04-23 18:59:14,901 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:59:14,902 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:59:15,906 INFO spawned: 'messenger' with pid 57
+2025-04-23 18:59:15,907 WARN received SIGQUIT indicating exit request
+2025-04-23 18:59:15,908 INFO waiting for messenger, php-fpm to die
+2025-04-23 18:59:15,920 INFO stopped: php-fpm (exit status 0)
+2025-04-23 18:59:15,921 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 18:59:28,907 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 18:59:28,907 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 18:59:28,910 INFO supervisord started with pid 1
+2025-04-23 18:59:29,913 INFO spawned: 'messenger' with pid 30
+2025-04-23 18:59:29,922 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 18:59:30,892 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 18:59:31,897 INFO spawned: 'messenger' with pid 36
+2025-04-23 18:59:31,897 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 18:59:33,666 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:02:12,067 WARN received SIGQUIT indicating exit request
+2025-04-23 19:02:12,067 INFO waiting for messenger, php-fpm to die
+2025-04-23 19:02:12,074 INFO stopped: php-fpm (exit status 0)
+2025-04-23 19:02:13,078 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 19:02:25,878 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 19:02:25,878 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 19:02:25,886 INFO supervisord started with pid 1
+2025-04-23 19:02:26,889 INFO spawned: 'messenger' with pid 30
+2025-04-23 19:02:26,890 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 19:02:28,665 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:02:28,665 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:02:44,692 WARN received SIGQUIT indicating exit request
+2025-04-23 19:02:44,692 INFO waiting for messenger, php-fpm to die
+2025-04-23 19:02:44,698 INFO stopped: php-fpm (exit status 0)
+2025-04-23 19:02:44,699 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 19:02:54,280 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 19:02:54,280 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 19:02:54,284 INFO supervisord started with pid 1
+2025-04-23 19:02:55,288 INFO spawned: 'messenger' with pid 38
+2025-04-23 19:02:55,290 INFO spawned: 'php-fpm' with pid 39
+2025-04-23 19:02:56,840 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:02:56,841 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:03:13,869 WARN received SIGQUIT indicating exit request
+2025-04-23 19:03:13,870 INFO waiting for messenger, php-fpm to die
+2025-04-23 19:03:13,875 INFO stopped: php-fpm (exit status 0)
+2025-04-23 19:03:13,877 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 19:03:26,480 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 19:03:26,481 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 19:03:26,486 INFO supervisord started with pid 1
+2025-04-23 19:03:27,487 INFO spawned: 'messenger' with pid 37
+2025-04-23 19:03:27,489 INFO spawned: 'php-fpm' with pid 38
+2025-04-23 19:03:29,207 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:03:29,208 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:03:29,208 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:03:30,210 INFO spawned: 'messenger' with pid 43
+2025-04-23 19:03:30,709 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:03:31,713 INFO spawned: 'messenger' with pid 46
+2025-04-23 19:03:32,209 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:03:34,213 INFO spawned: 'messenger' with pid 49
+2025-04-23 19:03:34,793 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:03:37,801 INFO spawned: 'messenger' with pid 52
+2025-04-23 19:03:39,179 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:08:50,300 WARN received SIGQUIT indicating exit request
+2025-04-23 19:08:50,301 INFO waiting for messenger, php-fpm to die
+2025-04-23 19:08:50,308 INFO stopped: php-fpm (exit status 0)
+2025-04-23 19:08:51,312 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 19:09:02,192 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 19:09:02,192 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 19:09:02,196 INFO supervisord started with pid 1
+2025-04-23 19:09:03,199 INFO spawned: 'messenger' with pid 36
+2025-04-23 19:09:03,201 INFO spawned: 'php-fpm' with pid 37
+2025-04-23 19:09:04,858 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:09:04,858 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:17:34,971 WARN received SIGQUIT indicating exit request
+2025-04-23 19:17:34,972 INFO waiting for messenger, php-fpm to die
+2025-04-23 19:17:34,983 INFO stopped: php-fpm (exit status 0)
+2025-04-23 19:17:34,985 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 19:17:52,535 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 19:17:52,537 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 19:17:52,546 INFO supervisord started with pid 1
+2025-04-23 19:17:53,550 INFO spawned: 'messenger' with pid 36
+2025-04-23 19:17:53,558 INFO spawned: 'php-fpm' with pid 37
+2025-04-23 19:17:54,622 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:17:54,623 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:17:55,096 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:17:56,100 INFO spawned: 'messenger' with pid 42
+2025-04-23 19:17:57,140 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:17:57,953 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:17:57,957 INFO spawned: 'messenger' with pid 45
+2025-04-23 19:17:58,866 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:18:00,155 INFO spawned: 'messenger' with pid 48
+2025-04-23 19:18:01,273 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:18:01,465 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:18:01,621 INFO spawned: 'messenger' with pid 51
+2025-04-23 19:18:02,536 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:18:03,629 INFO spawned: 'messenger' with pid 54
+2025-04-23 19:18:04,535 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:18:07,307 INFO spawned: 'messenger' with pid 57
+2025-04-23 19:18:08,780 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:40:09,751 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 19:40:10,765 INFO spawned: 'messenger' with pid 60
+2025-04-23 19:40:10,765 WARN received SIGQUIT indicating exit request
+2025-04-23 19:40:10,766 INFO waiting for messenger, php-fpm to die
+2025-04-23 19:40:10,777 INFO stopped: php-fpm (exit status 0)
+2025-04-23 19:40:10,779 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 19:41:57,734 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 19:41:57,734 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 19:41:57,739 INFO supervisord started with pid 1
+2025-04-23 19:41:58,742 INFO spawned: 'messenger' with pid 30
+2025-04-23 19:41:58,744 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 19:42:00,261 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 19:42:00,262 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:09:51,648 WARN received SIGQUIT indicating exit request
+2025-04-23 20:09:51,648 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:09:51,662 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:09:51,664 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:10:03,270 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:10:03,270 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:10:03,274 INFO supervisord started with pid 1
+2025-04-23 20:10:04,277 INFO spawned: 'messenger' with pid 31
+2025-04-23 20:10:04,279 INFO spawned: 'php-fpm' with pid 32
+2025-04-23 20:10:05,806 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:10:05,807 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:13:45,646 WARN received SIGQUIT indicating exit request
+2025-04-23 20:13:45,646 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:13:45,655 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:13:45,657 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:13:56,996 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:13:56,997 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:13:57,001 INFO supervisord started with pid 1
+2025-04-23 20:13:58,005 INFO spawned: 'messenger' with pid 30
+2025-04-23 20:13:58,006 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 20:13:58,769 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:13:59,772 INFO spawned: 'messenger' with pid 36
+2025-04-23 20:13:59,773 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:14:01,405 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:14:01,406 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:14:02,410 INFO spawned: 'messenger' with pid 39
+2025-04-23 20:14:03,008 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:14:04,012 INFO spawned: 'messenger' with pid 42
+2025-04-23 20:14:04,765 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:14:07,703 INFO spawned: 'messenger' with pid 45
+2025-04-23 20:14:08,492 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:14:11,500 INFO spawned: 'messenger' with pid 48
+2025-04-23 20:14:12,884 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:15:09,224 WARN received SIGQUIT indicating exit request
+2025-04-23 20:15:09,225 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:15:09,232 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:15:10,236 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:15:25,181 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:15:25,181 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:15:25,192 INFO supervisord started with pid 1
+2025-04-23 20:15:26,195 INFO spawned: 'messenger' with pid 30
+2025-04-23 20:15:26,198 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 20:15:27,997 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:15:27,998 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:15:27,998 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:15:29,002 INFO spawned: 'messenger' with pid 36
+2025-04-23 20:15:29,624 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:15:30,626 INFO spawned: 'messenger' with pid 39
+2025-04-23 20:15:31,173 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:15:33,179 INFO spawned: 'messenger' with pid 42
+2025-04-23 20:15:34,642 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:25:23,859 WARN received SIGQUIT indicating exit request
+2025-04-23 20:25:23,861 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:25:23,885 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:25:23,889 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:25:39,305 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:25:39,306 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:25:39,311 INFO supervisord started with pid 1
+2025-04-23 20:25:40,315 INFO spawned: 'messenger' with pid 30
+2025-04-23 20:25:40,316 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 20:25:42,079 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:25:42,079 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:26:11,705 WARN received SIGQUIT indicating exit request
+2025-04-23 20:26:11,706 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:26:11,717 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:26:11,719 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:26:26,742 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:26:26,743 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:26:26,748 INFO supervisord started with pid 1
+2025-04-23 20:26:27,750 INFO spawned: 'messenger' with pid 30
+2025-04-23 20:26:27,753 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 20:26:28,760 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:26:28,760 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:26:28,767 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:26:29,605 INFO spawned: 'messenger' with pid 36
+2025-04-23 20:26:31,243 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:26:31,244 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:26:32,159 INFO spawned: 'messenger' with pid 39
+2025-04-23 20:26:32,764 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:26:33,891 INFO spawned: 'messenger' with pid 42
+2025-04-23 20:26:34,719 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:26:37,365 INFO spawned: 'messenger' with pid 45
+2025-04-23 20:26:38,475 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:27:44,093 WARN received SIGQUIT indicating exit request
+2025-04-23 20:27:44,094 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:27:44,101 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:27:45,105 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:27:55,599 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:27:55,599 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:27:55,602 INFO supervisord started with pid 1
+2025-04-23 20:27:56,605 INFO spawned: 'messenger' with pid 30
+2025-04-23 20:27:56,607 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 20:27:58,554 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:27:58,555 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:28:35,873 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:28:36,876 INFO spawned: 'messenger' with pid 36
+2025-04-23 20:28:38,766 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:29:48,312 WARN received SIGQUIT indicating exit request
+2025-04-23 20:29:48,313 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:29:48,320 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:29:48,323 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:29:59,422 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:29:59,422 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:29:59,426 INFO supervisord started with pid 1
+2025-04-23 20:30:00,429 INFO spawned: 'messenger' with pid 30
+2025-04-23 20:30:00,431 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 20:30:02,028 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:30:02,028 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:33:53,969 WARN received SIGQUIT indicating exit request
+2025-04-23 20:33:53,969 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:33:53,978 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:33:54,981 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:34:20,293 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:34:20,294 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:34:20,300 INFO supervisord started with pid 1
+2025-04-23 20:34:21,304 INFO spawned: 'messenger' with pid 30
+2025-04-23 20:34:21,309 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 20:34:22,333 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:34:22,333 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:34:22,342 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:34:23,347 INFO spawned: 'messenger' with pid 36
+2025-04-23 20:34:24,434 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:34:24,499 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:34:25,502 INFO spawned: 'messenger' with pid 39
+2025-04-23 20:34:27,124 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:34:27,125 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:34:28,129 INFO spawned: 'messenger' with pid 42
+2025-04-23 20:34:29,721 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:35:30,197 WARN received SIGQUIT indicating exit request
+2025-04-23 20:35:30,197 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:35:30,205 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:35:30,206 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:35:41,065 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:35:41,066 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:35:41,071 INFO supervisord started with pid 1
+2025-04-23 20:35:42,075 INFO spawned: 'messenger' with pid 30
+2025-04-23 20:35:42,079 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 20:35:43,220 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:35:43,222 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:37:46,999 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:37:48,003 INFO spawned: 'messenger' with pid 36
+2025-04-23 20:37:49,670 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:38:25,836 WARN exited: messenger (exit status 1; not expected)
+2025-04-23 20:38:26,839 INFO spawned: 'messenger' with pid 39
+2025-04-23 20:38:28,292 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:40:01,829 WARN received SIGQUIT indicating exit request
+2025-04-23 20:40:01,829 INFO waiting for messenger, php-fpm to die
+2025-04-23 20:40:01,839 INFO stopped: php-fpm (exit status 0)
+2025-04-23 20:40:02,845 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 20:40:12,209 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 20:40:12,209 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 20:40:12,213 INFO supervisord started with pid 1
+2025-04-23 20:40:13,217 INFO spawned: 'messenger' with pid 30
+2025-04-23 20:40:13,221 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 20:40:14,355 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 20:40:14,356 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 21:02:30,821 WARN received SIGQUIT indicating exit request
+2025-04-23 21:02:30,821 INFO waiting for messenger, php-fpm to die
+2025-04-23 21:02:30,830 INFO stopped: php-fpm (exit status 0)
+2025-04-23 21:02:30,832 WARN stopped: messenger (terminated by SIGTERM)
+2025-04-23 21:10:17,962 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-23 21:10:17,963 INFO Included extra file "/etc/supervisor/conf.d/messenger.conf" during parsing
+2025-04-23 21:10:17,966 INFO supervisord started with pid 1
+2025-04-23 21:10:18,970 INFO spawned: 'messenger' with pid 30
+2025-04-23 21:10:18,972 INFO spawned: 'php-fpm' with pid 31
+2025-04-23 21:10:20,495 INFO success: messenger entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-23 21:10:20,495 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

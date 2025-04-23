@@ -1,0 +1,21 @@
+# config/packages/security.yaml
+
+security:
+    # root‑level nie ma enable_authenticator_manager – to opcja z nowszego bundle’a
+    # (jeśli chcesz korzystać z nowego Authenticator Managera, musisz mieć
+    #  symfony/security-bundle >= 5.3 i w bundles.php zarejestrowany SecurityBundle)
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        api:
+            pattern:   ^/api
+            stateless: true
+            lazy:      true   # włącza „odroczoną” autoryzację i pozwala na anonimów
+
+    access_control:
+        # PUBLIC_ACCESS to specjalny „rola”, którą mają WSZYSCY
+        # (nawet niezalogowani). Dzięki temu nie blokujesz /api.
+        - { path: ^/api, roles: PUBLIC_ACCESS }
